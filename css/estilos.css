@@ -19,7 +19,7 @@
 }
 
 .topo {
-    background-image: url("//localhost:8080/img/banner-aluno.webp");
+    background-image: url("../img/banner-aluno.webp");
     background-size: cover;
     background-position: center;
     width: 100%;
