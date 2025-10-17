@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.limitar {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.seta {
+    width: 30px;
+    height: 35px;
+    margin-left: 10px;
+    stroke: #fff;
+}
+
+.topo {
+    background-image: url("//localhost:8080/img/banner-aluno.webp");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* .topo::before {
+    content: "";
+    box-shadow: 0 60px 5px rgba(0, 0, 0, 0.2) inset;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+} */
+
+.divideisso {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    height: 140px;
+    position: relative;
+    box-shadow: 0 200px 5px rgba(10, 10, 10, 0.1) inset;
+    
+}
+
+.divtopo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navcima {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.navcima a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.navbaixo {
+    font-size: 18px;
+    background-color: #fff;
+    width: 59%;
+    display: flex;
+    padding: 25px;
+    border-radius: 15px 0 0 15px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.navbaixo div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 22px;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+.navbaixo a,
+.navbaixo b {
+    color: #000000;
+
+}
+
+.titulo {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 30px 20px 0 0;
+    padding: 20px;
+}
+
+.titulo div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    width: 500px;
+    text-align: end;
+    padding: 20px;
+}
+
+.titulo div p {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    width: 90%;
+}
+
+.titulo div p::before {
+    content: "";
+    width: 227px;
+    height: 2px;
+    position: absolute;
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+}
+
+#apresentacao {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+.bemvindo {
+    font-size: 36px;
+    width: 100%;
+    text-align: start;
+}
+
+.texto {
+    padding-left: 50px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.texto p {
+    margin: 30px 0;
+    font-size: 17px;
+}
+
+#mural {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10 20px;
+}
+
+.card {
+    width: 35%;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    position: relative;
+    height: auto;
+}
+
+.card a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px 0;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+}
+
+.card figure {
+    width: 100%;
+}
+
+.card figure img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.legenda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 100px 20px 30px;
+}
+
+
+.titlelegend {
+    width: 100%;
+    text-align: start;
+}
+
+.amarelo {
+    background-color: #ffdd00;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.branco {
+    background-color: #fff;
+}
+
+.iguais p,
+.conteudo-l p {
+    line-height: 25px;
+}
+
+.iguais div {
+    line-height: 38px;
+}
+
+.iguais {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.iguais div {
+    width: 30%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.iguais div span {
+    font-size: 40px;
+}
+
+.iguais p {
+    width: 70%;
+    padding: 30px;
+}
+
+.laranja {
+
+    background-color: #e24612;
+}
+
+.conteudo-l {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.conteudo-l div {
+    width: 33%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+
+.conteudo-l p {
+    color: #fff;
+    width: 50%;
+    padding: 30px;
+}
+
+.conteudo-l div span {
+    font-size: 40px;
+}
+
+.conteudo-l figure {
+    width: 30%;
+}
+
+.conteudo-l figure img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contato,
+.mapa {
+    padding: 40px 20px;
+    display: flex;
+    width: 100%;
+}
+
+.contato {
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    border-bottom: 1px solid rgb(204, 203, 203);
+}
+
+.dupla-rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.dupla-rodape a,
+.dupla-rodape p {
+    color: #504e4e;
+    font-size: 12px;
+}
+
+.mapa {
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.lista-mapa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lista-mapa b,
+.lista-mapa p {
+    text-align: left;
+}
+
+
+
+@media (max-width: 1025px) {
+    .navbaixo {
+        padding: 10px;
+    }
+    .navbaixo div {
+        width: 100%;
+    }
+}
+
+@media (max-width:808px) {
+    .navcima {
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .contato {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .contato .dupla-rodape {
+        align-items: center;
+    }
+
+    .iguais,
+    .conteudo-l {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+@media (max-width: 778px) {
+    .card p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .navbaixo a,
+    .navbaixo b {
+        font-size: 14px;
+    }
+
+    .iguais div,
+    .conteudo-l div {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .iguais div small,
+    .conteudo-l div small {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .conteudo-l p {
+        width: 70%
+    }
+
+
+
+}
+
+@media (max-width: 690px) {
+    .divideisso {
+        height: auto;
+    }
+
+    .divtopo {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .navbaixo {
+        width: 100%;
+        padding-top: 10px;
+        background-color: transparent;
+    }
+
+    .navbaixo div {
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+
+    }
+
+    .navcima a,
+    .navbaixo a,
+    .navbaixo b {
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .titulo {
+        height: 65%;
+        justify-content: end;
+    }
+
+    .iguais div span,
+    .conteudo-l div span {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 468px) {
+
+    .navbaixo,
+    .navcima {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 7px;
+    }
+
+    .navbaixo div {
+        gap: 20px;
+    }
+
+    .navcima a,
+    .navcima b {
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .navbaixo a,
+    .navbaixo b {
+        width: 100%;
+    }
+
+    .titulo div p {
+        font-size: 27px;
+    }
+
+    #mural {
+        flex-direction: column;
+
+    }
+
+    .card {
+        width: 100%;
+        display: flex;
+    }
+
+    .card figure {
+        width: 100%;
+        border-radius: 25px 0 0 25px;
+
+    }
+
+    .card figure img {
+        width: 100%;
+        height: 100%;
+        border-radius: 25px 0 0 25px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 376px) {
+    .titulo div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .titulo div p::before {
+        display: none;
+    }
+
+    .navbaixo a,
+    .navbaixo b,
+    .navcima a,
+    .navcima b {
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .titulo div p {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,41 @@
+    {TOPO}
+    <link rel="stylesheet" href="//localhost:8080/boletim/css/estilos.css">
+    <section>
+        <!-- BEGIN BLOCK_CARDS -->
+        <div class="secao">
+            <div class="container">
+                <h1><b>Alunos</b></h1>
+
+                <div class="cards">
+                    <!-- BEGIN BLOCK_ALUNO -->
+                    <div class="card">
+                        <h3>{NOME}</h3>
+                        <div class="infos">
+                            <div class="dupla">
+                                <div>
+                                    <p><b class="chaves">nota1: </b><span class="{COR_NOTA1}">{NOTA1}</span></p>
+                                    <p><b class="chaves">nota2: </b><span class="{COR_NOTA2}">{NOTA2}</span></p>
+                                    <p><b class="chaves">media: </b><span class="{COR_MEDIA}">{MEDIA}</span></p>
+                                </div>
+                                <figure class="{COR_FUNDO} aluno-fig">
+                                    <img src="//localhost:8080/boletim/img/aluno.png" alt="foto do aluno" class="aluno-img">
+                                </figure>
+                            </div>
+
+                        </div>
+                        <span class="banner {COLOR}">{STATUS}</span>
+                    </div>
+                    <!-- END BLOCK_ALUNO -->
+                </div>
+
+            </div>
+
+        </div>
+        <!-- END BLOCK_CARDS -->
+
+        <div class="vazio">
+            <p>Sem informações disponiveis</p>
+        </div>
+        <!-- FINALLY BLOCK_CARDS-->
+    </section>
+    {RODAPE}
